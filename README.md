@@ -64,5 +64,5 @@ Dit kan in twee schermen
      - Individuele vouchers bewerken of verwijderen
   
 - Instellingen
-  - Bulk veranderingen van vouchers
+  - Groepen van vouchers editeren of verwijderen
   - Instellen van een prefix lengte bij het inscannen (voor vouchers van hetzelfde type zijn de eerste 7 of 8 karakters hetzelfde). Dit op een hogere waarde dan 3 (LEU) zetten vermindert het risico op foute scans.
