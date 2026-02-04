@@ -1,6 +1,19 @@
 # Leuven-Parkeer-Vouchers
 Informatie, discussie en probleem rapportering voor Leuven Parkeer Vouchers app
 
+# Introductie
+De app laat je toe om je parkeer vouchers te beheren, parkeersessie in te plannen en vouchers via 4411 te gebruiken of naar een contact door te sturen.
+Alle informatie wordt in een real-time database bijgehouden zodat alle gebruikers in dezelfde groep steeds een zicht hebben op de laatste status.
+Bij het plannen van een parkeersessie wordt steeds een optimale combinatie (minimaal aantal) van vouchers gebruikt waarbij die met de kortste duurtijd eerst worden gebruikt.
+Een lopende parkeersessie kan ook afgebroken worden waarbij de niet gebruikte vouchers terug worden vrijgegeven.
+
+Bevestigingsberichten van 4411 (indien actief) worden gecheckt waar volgende acties worden aan gekoppeld:
+- Bevesting start: wordt geannoteerd op de voucher
+- Bevesting einde:
+  - Indien 10 minuten voor verwachte eindtijd wordt de parkeersessie herpland
+- Foute voucher code (dit komt via een gratis SMS op **8920** binnen):
+  - Parkeersessie wordt herpland
+
 # Gestart geraken
 ## Installeren
 De app kun je downloaden via de OneDrive link die ik je stuur.
@@ -16,7 +29,9 @@ Op dat moment kun je:
 ## Instellen
 Het is aangeraden om een PIN in stellen om jezelf te beschermen tegen ongewenste operaties (en die ook niet te tonen wanneer niet nodig).
 
-# Group Beheerder
+# Groep Beheerder
+De OneDrive link kun je doorsturen naar mensen die je van jouw vouchers gebruik wil laten maken (of zelfs medebeheerder)
+
 Als groep beheerder kun je het volgende beheren:
 - Leden
 - Vouchers
