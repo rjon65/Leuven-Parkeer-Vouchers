@@ -46,7 +46,7 @@ Om correct te werken moet de app bepaalde rechten krijgen:
     
 
 # Groep Beheerder
-De OneDrive link kun je doorsturen naar mensen die je van jouw vouchers gebruik wil laten maken (of zelfs medebeheerder)
+De OneDrive link kun je doorsturen naar mensen die je van jouw vouchers gebruik wil laten maken (en als medebeheerder aanstellen)
 
 Als groep beheerder kun je het volgende beheren:
 - Leden
