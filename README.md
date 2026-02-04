@@ -11,10 +11,11 @@ Bevestigingsberichten van **4411** (indien actief) worden gecheckt waar volgende
 - Bevesting start: wordt geannoteerd op de voucher
 - Bevesting einde:
   - Indien 10 minuten voor verwachte eindtijd wordt de parkeersessie herpland
-- Foute voucher code (dit komt via een gratis SMS op **8920** binnen):
-  - Parkeersessie wordt herpland
 - Bevesting aan/uitzetten bevestingsberichten
   - Status wordt lokaal opgeslaan
+
+Bij gebruik van een foute, reeds gebruikte, of verlopen voucher wordt dit door een gratis SMS van **8920** gemeld en wordt de resterende duurtijd van de parkeersessie herpland. 
+Dit zou in principe niet mogen gebeuren, maar je weet nooit.
 
 # Gestart geraken
 ## Installeren
