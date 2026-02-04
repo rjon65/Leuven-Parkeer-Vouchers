@@ -34,7 +34,7 @@ Het is aangeraden om een PIN in stellen om jezelf te beschermen tegen ongewenste
 
 Om correct te werken moet de app bepaalde rechten krijgen:
 - Essentieel
-  - Zonder deze rechten kun je de app niet gebruiken. Deze rechten kunen vanaf Android 13 buiten de app om in het App Info scherm waar je via de "3 stippen" rechts bovenaan "Beperkte instellingen toestaan" moet aanclicken en vervolgens rechten toevoegen voor:
+  - Zonder deze rechten kun je de app niet gebruiken en het startscherm geeft een menu optie als dit het geval is. Deze rechten moeten vanaf Android 13 buiten de app om toegestaan worden in het App Info scherm waar je via de "3 stippen" rechts bovenaan "Beperkte instellingen toestaan" moet selecteert en vervolgens rechten toevoegt voor:
     - Wekkers en herinneringen (om SMSen in de toekomst te kunnen sturen)
     - SMS (sturen en lezen van ontvangen SMSen) 
 - Comfortabele werking
