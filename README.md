@@ -1,5 +1,5 @@
 # Leuven-Parkeer-Vouchers
-Informatie, discussie en probleem rapportering voor Leuven Parkeer Vouchers app
+Informatie, [discussie](https://github.com/rjon65/Leuven-Parkeer-Vouchers/discussions) en [probleem](https://github.com/rjon65/Leuven-Parkeer-Vouchers/issues) rapportering voor Leuven Parkeer Vouchers app
 
 # Introductie
 De app laat je toe om je parkeer vouchers te beheren, parkeersessie in te plannen en vouchers via 4411 te gebruiken of naar een contact door te sturen.
