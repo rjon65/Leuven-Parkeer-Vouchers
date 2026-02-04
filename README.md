@@ -7,12 +7,14 @@ Alle informatie wordt in een real-time database bijgehouden zodat alle gebruiker
 Bij het plannen van een parkeersessie wordt steeds een optimale combinatie (minimaal aantal) van vouchers gebruikt waarbij die met de kortste duurtijd eerst worden gebruikt.
 Een lopende parkeersessie kan ook afgebroken worden waarbij de niet gebruikte vouchers terug worden vrijgegeven.
 
-Bevestigingsberichten van 4411 (indien actief) worden gecheckt waar volgende acties worden aan gekoppeld:
+Bevestigingsberichten van **4411** (indien actief) worden gecheckt waar volgende acties worden aan gekoppeld:
 - Bevesting start: wordt geannoteerd op de voucher
 - Bevesting einde:
   - Indien 10 minuten voor verwachte eindtijd wordt de parkeersessie herpland
 - Foute voucher code (dit komt via een gratis SMS op **8920** binnen):
   - Parkeersessie wordt herpland
+- Bevesting aan/uitzetten bevestingsberichten
+  - Status wordt lokaal opgeslaan
 
 # Gestart geraken
 ## Installeren
@@ -28,6 +30,18 @@ Op dat moment kun je:
 
 ## Instellen
 Het is aangeraden om een PIN in stellen om jezelf te beschermen tegen ongewenste operaties (en die ook niet te tonen wanneer niet nodig).
+
+Om correct te werken moet de app bepaalde rechten krijgen:
+- Essentieel
+  - Zonder deze rechten kun je de app niet gebruiken. Deze rechten kunen vanaf Android 13 buiten de app om in het App Info scherm waar je via de "3 stippen" rechts bovenaan "Beperkte instellingen toestaan" moet aanclicke enn vervolgens rechten toevoegen voor:
+    - Wekkers en herinneringen (om SMSen in de toekomst te kunnen sturen)
+    - SMS (sturen en lezen van ontvangen SMSen) 
+- Comfortabele werking
+  - Deze rechten worden gevraagd binnen de app op het moment dat die nodig zijn:
+    - Camera (scannen van vouchers en nummerplaat)
+    - Berichten (foutboodschappen)
+
+    
 
 # Groep Beheerder
 De OneDrive link kun je doorsturen naar mensen die je van jouw vouchers gebruik wil laten maken (of zelfs medebeheerder)
