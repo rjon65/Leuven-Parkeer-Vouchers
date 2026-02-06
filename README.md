@@ -53,7 +53,7 @@ Als groep beheerder kun je het volgende beheren:
 
 ## Instellingen
 Hier kun voor **test mode** optereren door bvb je eigen te nummer gebruiken ipv 4411 om parkeersessies to starten.
-Vouchers die op die manier gebruikt of gereserveerd zijn, kun je weer vrijgeven onder **Beheer <_ jouw groep_> groep**
+Vouchers die op die manier gebruikt of gereserveerd zijn, kun je weer vrijgeven onder **Beheer <jouw groep> groep**
 
 ## Beheer <_ jouw groep_> groep
 
@@ -65,7 +65,7 @@ Vouchers die op die manier gebruikt of gereserveerd zijn, kun je weer vrijgeven 
   - Individuele vouchers bewerken of verwijderen
   - Groepen van vouchers editeren of verwijderen
  
-### Scan consistentie parameter (_<waarde>_)
+### Scan consistentie parameter (<waarde>)
 Deze waarde wordt gebruikt door de tekst herkenning om ruis te vermijden en staat bij default op 5.
 Voor een eerste poging van het scannen van een voucher lijst is dit een goede waarde.
 Maar soms is het lastig om de laatste codes gelezen te krijgen en kun je dan een lagere waarde instellen in combinatie met het gebruik van een langere prefix
