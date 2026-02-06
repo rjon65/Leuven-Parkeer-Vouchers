@@ -11,6 +11,7 @@ Bevestigingsberichten van **4411** (indien actief) worden gecheckt waar volgende
 - Bevestiging start: wordt geannoteerd op de voucher
 - Bevestiging einde:
   - Indien 10 minuten voor verwachte eindtijd wordt de parkeersessie herpland
+  - _Zou dit een configureerbare instelling moeten zijn voor de groep beheerder?_
 - Bevestiging aan/uitzetten bevestigingsberichten:
   - Status wordt lokaal opgeslaan
 
@@ -52,7 +53,8 @@ Als groep beheerder kun je het volgende beheren:
 - Vouchers
 
 ## Instellingen
-Hier kun voor **test mode** optereren door bvb je eigen te nummer gebruiken ipv 4411 om parkeersessies to starten.
+Hier kun je voor de **test mode** opteren door bvb je eigen te nummer gebruiken ipv 4411 om parkeersessies to starten.
+Zo verlies je geen vouchers en heb je geen kosten eigen aan 4411 gebruik.
 Vouchers die op die manier gebruikt of gereserveerd zijn, kun je weer vrijgeven onder **Beheer** _jouw groep_ **groep**
 
 ## Beheer groep
@@ -65,7 +67,20 @@ Vouchers die op die manier gebruikt of gereserveerd zijn, kun je weer vrijgeven 
   - Individuele vouchers bewerken of verwijderen
   - Groepen van vouchers editeren of verwijderen
  
-### Scan consistentie parameter
-Deze waarde wordt gebruikt door de tekst herkenning om ruis te vermijden en staat bij default op 5.
+### Voucher scan parameters
+#### Scan consistentie
+Deze waarde wordt gebruikt door de tekst herkenning om ruis (vals positieven) te vermijden en staat bij default op 5.
 Voor een eerste poging van het scannen van een voucher lijst is dit een goede waarde.
 Maar soms is het lastig om de laatste codes gelezen te krijgen en kun je dan een lagere waarde instellen in combinatie met het gebruik van een langere prefix
+
+#### Prefix
+Bij mijn observatties starten vouchers van eenzelfde type en zelfde geldigheidsdatum met de 8 zelfde karakters (dit aantal wordt weergegeven op het voucher scherm).
+Om de kans op valse positieven verder te vermijden kun je meer karakters specifieren dan de default **LEU**.
+Als je een lijst al gedeeltelijk hebt gescand wordt de default automatisch verlengd met wat geld voor de al bestaande lijst.
+
+#### Ingebouwd
+Op dit moment wordt er ook gechekt of een nieuw voucher minimal 2 karakters verschild van de reeds ingelezen vouchers.
+_Dit kan eventueel als een deselecteerbare optie toegevoegd worden._
+
+#### Papier of scherm?
+Geen van beide opties is feilloos. Soms worden codes makkelijker herkend op een scherm, soms op papier. Wat bewegen met de camera helpt en als de laatste echt niet lukt kun je nog altijd manueel invoeren.
