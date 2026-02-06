@@ -4,7 +4,7 @@ Informatie, [discussie](https://github.com/rjon65/Leuven-Parkeer-Vouchers/discus
 # Introductie
 De app laat je toe om je parkeer vouchers te beheren, parkeersessies in te plannen en vouchers via 4411 te gebruiken of naar een contact door te sturen.
 Alle informatie wordt in een real-time database bijgehouden zodat alle gebruikers in dezelfde groep steeds een zicht hebben op de laatste status.
-Bij het plannen van een parkeersessie wordt steeds een optimale combinatie (minimaal aantal) van vouchers gebruikt waarbij die met de kortste duurtijd eerst worden gebruikt.
+Bij het plannen van een parkeersessie wordt steeds een optimale combinatie (oudste eerst en dan minimaal aantal) van vouchers gebruikt waarbij die met de kortste duurtijd eerst worden gebruikt.
 Een lopende parkeersessie kan afgebroken worden waarbij de niet gebruikte vouchers terug worden vrijgegeven.
 
 Bevestigingsberichten van **4411** (indien actief) worden gecheckt waar volgende acties aan zijn gekoppeld:
@@ -43,28 +43,29 @@ Om correct te werken moet de app bepaalde rechten krijgen:
     - Camera (scannen van vouchers en nummerplaat)
     - Berichten (foutboodschappen)
 
-    
 
-# Groep Beheerder
+# Groep Beheerder Functies
 De OneDrive link kun je doorsturen naar mensen die je van jouw vouchers gebruik wil laten maken (en als medebeheerder aanstellen)
 
 Als groep beheerder kun je het volgende beheren:
 - Leden
 - Vouchers
 
-## Test mode
-In test mode kun je bvb je eigen nummer gebruiken ipv 4411 om parkeersessies to starten.
-Vouchers die op die manier als gebruikt zijn, kun je dan wel weer vrijgeven
+## Instellingen
+Hier kun voor **test mode** optereren door bvb je eigen te nummer gebruiken ipv 4411 om parkeersessies to starten.
+Vouchers die op die manier gebruikt of gereserveerd zijn, kun je weer vrijgeven onder **Beheer <_ jouw groep_> groep**
 
-## Voucher beheer
-Dit kan in twee schermen
-- Vouchers
-   - Overzicht van vouchers
-   - Na unlocken 
-     - Vouchers scannen
-     - Een voucher manueel invoeren
-     - Individuele vouchers bewerken of verwijderen
-  
-- Instellingen
+## Beheer <_ jouw groep_> groep
+
+### Beheer vouchers
+- Zonder te ontgrendelen krijg je een filterbaar overzicht van de vouchers
+- Na het ontgrendelen kun je
+  - Vouchers scannen
+  - Een voucher manueel invoeren
+  - Individuele vouchers bewerken of verwijderen
   - Groepen van vouchers editeren of verwijderen
-  - Instellen van een prefix lengte bij het inscannen (voor vouchers van hetzelfde type zijn de eerste 7 of 8 karakters hetzelfde). Dit op een hogere waarde dan 3 (LEU) zetten vermindert het risico op foute scans.
+ 
+### Scan consistentie parameter (_<waarde>_)
+Deze waarde wordt gebruikt door de tekst herkenning om ruis te vermijden en staat bij default op 5.
+Voor een eerste poging van het scannen van een voucher lijst is dit een goede waarde.
+Maar soms is het lastig om de laatste codes gelezen te krijgen en kun je dan een lagere waarde instellen in combinatie met het gebruik van een langere prefix
