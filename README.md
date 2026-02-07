@@ -67,20 +67,23 @@ Vouchers die op die manier gebruikt of gereserveerd zijn, kun je weer vrijgeven 
   - Individuele vouchers bewerken of verwijderen
   - Groepen van vouchers editeren of verwijderen
  
-### Voucher scan parameters
-#### Scan consistentie
+#### Voucher scan parameters
+##### Scan consistentie
 Deze waarde wordt gebruikt door de tekst herkenning om ruis (vals positieven) te vermijden en staat bij default op 5.
 Voor een eerste poging van het scannen van een voucher lijst is dit een goede waarde.
 Maar soms is het lastig om de laatste codes gelezen te krijgen en kun je dan een lagere waarde instellen in combinatie met het gebruik van een langere prefix
 
-#### Prefix
+##### Prefix
 Bij mijn observatties starten vouchers van eenzelfde type en zelfde geldigheidsdatum met de 8 zelfde karakters (dit aantal wordt weergegeven op het voucher scherm).
 Om de kans op valse positieven verder te vermijden kun je meer karakters specifieren dan de default **LEU**.
 Als je een lijst al gedeeltelijk hebt gescand wordt de default automatisch verlengd met wat geld voor de al bestaande lijst.
 
-#### Ingebouwd
+##### Ingebouwd
 Op dit moment wordt er ook gechekt of een nieuw voucher minimal 2 karakters verschild van de reeds ingelezen vouchers.
 _Dit kan eventueel als een deselecteerbare optie toegevoegd worden._
 
-#### Papier of scherm?
+##### Papier of scherm?
 Geen van beide opties is feilloos. Soms worden codes makkelijker herkend op een scherm, soms op papier. Wat bewegen met de camera helpt en als de laatste echt niet lukt kun je nog altijd manueel invoeren.
+
+### Backup (vanaf versie 1.1.3)
+Hiermee kun je je groep data (vouchers, nummerplaten, en contacten) opslaan in een CVS file op je Google Drive en ook terug importeren.
