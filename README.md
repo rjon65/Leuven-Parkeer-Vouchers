@@ -79,7 +79,8 @@ Om de kans op valse positieven verder te vermijden kun je meer karakters specifi
 Als je een lijst al gedeeltelijk hebt gescand wordt de default automatisch verlengd met wat geld voor de al bestaande lijst.
 
 ##### Ingebouwd
-Op dit moment wordt er ook gechekt of een nieuw voucher minimal 2 karakters verschild van de reeds ingelezen vouchers.
+Op dit moment wordt er ook gechekt of een nieuw voucher minimal 2 karakters verschilt van de reeds ingelezen vouchers.
+
 _Dit kan eventueel als een deselecteerbare optie toegevoegd worden._
 
 ##### Papier of scherm?
