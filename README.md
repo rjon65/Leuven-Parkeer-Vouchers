@@ -30,7 +30,8 @@ Op dat moment kun je:
 - ofwel (door mij) als beheerder van een groep aangesteld worden
 - ofwel door een groep beheerder (of ikzelf) tot een groep toegelaten worden
 
-## Instellen
+## Instellingen
+### PIN
 Het is aangeraden om een PIN in stellen om jezelf te beschermen tegen ongewenste operaties (en die ook niet te tonen wanneer niet nodig).
 
 Om correct te werken moet de app bepaalde rechten krijgen:
@@ -44,6 +45,8 @@ Om correct te werken moet de app bepaalde rechten krijgen:
     - Camera (scannen van vouchers en nummerplaat)
     - Berichten (foutboodschappen)
 
+### Groep paswoord
+Dit paswoord moet je groep beheerder je aanleveren. Zonder paswoord heb je geen toegang tot de data.
 
 # Groep Beheerder Functies
 De OneDrive link kun je doorsturen naar mensen die je van jouw vouchers gebruik wil laten maken (en als medebeheerder aanstellen)
@@ -52,17 +55,17 @@ Als groep beheerder kun je het volgende beheren:
 - Leden
 - Vouchers
 
-## Encryptie (vanaf 1.1.3)
-Data wordt geencrypteerd opgeslagen in de realtime database. Als groep beheerder moet je daarvoor een paswoord (van 128 karakters) genereren.
-Sla dit paswoord op op een veilige plaats want als die verloren gaat uit je settings heb je geen toegang meer tot de data.
-Dit paswoord moet je doorsturen naar groepsleden.
-
 ## Instellingen
 Hier kun je voor de **test mode** opteren door bvb je eigen te nummer gebruiken ipv 4411 om parkeersessies to starten.
 Zo verlies je geen vouchers en heb je geen kosten eigen aan 4411 gebruik.
 Vouchers die op die manier gebruikt of gereserveerd zijn, kun je weer vrijgeven onder **Beheer** _jouw groep_ **groep**
 
 ## Beheer groep
+
+### Encryptie (vanaf 1.1.3)
+Data wordt geencrypteerd opgeslagen in de realtime database. Als groep beheerder moet je daarom eerst een paswoord (van 128 karakters) genereren.
+Sla dit paswoord op op een veilige plaats want als die verloren gaat uit je settings heb je geen toegang meer tot de data.
+Dit paswoord moet ook je doorsturen naar groepsleden om hen toegang te verlenen.
 
 ### Beheer vouchers
 - Zonder te ontgrendelen krijg je een filterbaar overzicht van de vouchers
