@@ -52,6 +52,11 @@ Als groep beheerder kun je het volgende beheren:
 - Leden
 - Vouchers
 
+## Encryptie (vanaf 1.1.3)
+Data wordt geencrypteerd opgeslagen in de realtime database. Als groep beheerder moet je daarvoor een paswoord (van 128 karakters) genereren.
+Sla dit paswoord op op een veilige plaats want als die verloren gaat uit je settings heb je geen toegang meer tot de data.
+Dit paswoord moet je doorsturen naar groepsleden.
+
 ## Instellingen
 Hier kun je voor de **test mode** opteren door bvb je eigen te nummer gebruiken ipv 4411 om parkeersessies to starten.
 Zo verlies je geen vouchers en heb je geen kosten eigen aan 4411 gebruik.
