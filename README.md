@@ -62,10 +62,13 @@ Vouchers die op die manier gebruikt of gereserveerd zijn, kun je weer vrijgeven 
 
 ## Beheer groep
 
-### Encryptie (vanaf 1.1.3)
+### Encryptie
 Data wordt geencrypteerd opgeslagen in de realtime database. Als groep beheerder moet je daarom eerst een paswoord (van 128 karakters) genereren.
 Sla dit paswoord op op een veilige plaats want als die verloren gaat uit je settings heb je geen toegang meer tot de data.
 Dit paswoord moet ook je doorsturen naar groepsleden om hen toegang te verlenen.
+
+### Backup
+Hiermee kun je je groep data (vouchers, nummerplaten, en contacten) opslaan in een CVS file op je Google Drive en ook terug importeren.
 
 ### Beheer vouchers
 - Zonder te ontgrendelen krijg je een filterbaar overzicht van de vouchers
@@ -93,6 +96,3 @@ _Dit kan eventueel als een deselecteerbare optie toegevoegd worden._
 
 ##### Papier of scherm?
 Geen van beide opties is feilloos. Soms worden codes makkelijker herkend op een scherm, soms op papier. Wat bewegen met de camera helpt en als de laatste echt niet lukt kun je nog altijd manueel invoeren.
-
-### Backup (vanaf versie 1.1.3)
-Hiermee kun je je groep data (vouchers, nummerplaten, en contacten) opslaan in een CVS file op je Google Drive en ook terug importeren.
