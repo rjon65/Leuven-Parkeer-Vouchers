@@ -72,13 +72,14 @@ Hiermee kun je je groep data (vouchers, nummerplaten, en contacten) opslaan in e
 
 ### Beheer vouchers
 - Zonder te ontgrendelen krijg je een filterbaar overzicht van de vouchers
-- Na het ontgrendelen kun je
-  - Vouchers scannen
-  - Een voucher manueel invoeren
-  - Individuele vouchers bewerken of verwijderen
-  - Groepen van vouchers editeren of verwijderen
+- Na het ontgrendelen kun je vouchers
+  - Van PDF inlezen, maar mocht je niet (meer) over de elektronische versie beschikken dan zijn er de volgende alternatieven:
+    - Vouchers scannen
+    - Vouchers manueel invoeren
+  - Individuele vouchers of groepen van vouchers bewerken of verwijderen
  
 #### Voucher scan parameters
+Omdat het scannen nogal variable que resultaat is, zijn er een aantal parameters waar je kunt mee spelen om tot een beter resultaat te komen
 ##### Scan consistentie
 Deze waarde wordt gebruikt door de tekst herkenning om ruis (vals positieven) te vermijden en staat bij default op 5.
 Voor een eerste poging van het scannen van een voucher lijst is dit een goede waarde.
@@ -91,8 +92,5 @@ Als je een lijst al gedeeltelijk hebt gescand wordt de default automatisch verle
 
 ##### Ingebouwd
 Op dit moment wordt er ook gechekt of een nieuw voucher minimal 2 karakters verschilt van de reeds ingelezen vouchers.
-
 _Dit kan eventueel als een deselecteerbare optie toegevoegd worden._
 
-##### Papier of scherm?
-Geen van beide opties is feilloos. Soms worden codes makkelijker herkend op een scherm, soms op papier. Wat bewegen met de camera helpt en als de laatste echt niet lukt kun je nog altijd manueel invoeren.
