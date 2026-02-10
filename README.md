@@ -80,7 +80,7 @@ Hiermee kun je je groep data (vouchers, nummerplaten, en contacten) opslaan in e
 ### Beheer vouchers
 - Zonder te ontgrendelen krijg je een filterbaar overzicht van de vouchers
 - Na het ontgrendelen kun je vouchers
-  - Van PDF inlezen, maar mocht je niet (meer) over de elektronische versie beschikken dan zijn er de volgende alternatieven:
+  - Van de PDF file(s) inlezen. Mocht je niet (meer) over de elektronische versie beschikken dan zijn er de volgende alternatieven:
     - Vouchers scannen
     - Vouchers manueel invoeren
   - Individuele vouchers of groepen van vouchers bewerken of verwijderen
