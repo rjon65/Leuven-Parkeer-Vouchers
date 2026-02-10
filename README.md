@@ -2,7 +2,7 @@
 Informatie, [discussie](https://github.com/rjon65/Leuven-Parkeer-Vouchers/discussions) en [probleem](https://github.com/rjon65/Leuven-Parkeer-Vouchers/issues) rapportering voor Leuven Parkeer Vouchers app
 
 # Introductie
-De app laat je toe om je parkeer vouchers te beheren, parkeersessies in te plannen en vouchers via 4411 te gebruiken of naar een contact door te sturen.
+De app laat je toe om je parkeer vouchers te beheren, parkeersessies in te plannen en vouchers via de 4411 SMS service te gebruiken of naar een contact door te sturen.
 Alle informatie wordt in een real-time database bijgehouden zodat alle gebruikers in dezelfde groep steeds een zicht hebben op de laatste status.
 Bij het plannen van een parkeersessie wordt steeds een optimale combinatie (oudste eerst en dan minimaal aantal) van vouchers gebruikt waarbij die met de kortste duurtijd eerst worden gebruikt.
 Een lopende parkeersessie kan afgebroken worden waarbij de niet gebruikte vouchers terug worden vrijgegeven.
@@ -18,11 +18,18 @@ Bevestigingsberichten van **4411** (indien actief) worden gecheckt waar volgende
 Bij gebruik van een foute, reeds gebruikte, of verlopen voucher wordt dit via een gratis SMS van **8920** gemeld en wordt de resterende duurtijd van de parkeersessie herpland. 
 Dit zou in principe niet mogen gebeuren, maar je weet nooit.
 
+# 4411 SMS service
+Omdat de 4411 app geen toegankelijke API heeft, wordt de SMS service gebruikt. De kostprijs is 0.15 per SMS.
+  - Als je bevestigingsberichten geactiveerd hebt kost je dit 0.45 💶 per voucher
+  - Zonder bevestigingsberichten kost een voucher activering je 0.15 💶
+      - Eventuele foutberichten ontvang je wel nog via een gratis SMS
+  - Via de app kost een een voucher activering 0.35 💶
+
 # Gestart geraken
 ## Installeren
 De app kun je downloaden via de OneDrive link die ik je stuur.
-Google zal die eerst screnen (en dat zou geen problemen mogen opleveren) waarna je kunt installeren.
-Antivirus programma's kunnen wel wat moeilijk doen
+Bij het installeren wordt de app gescreend (en dat zou geen problemen mogen opleveren) waarna de installatie kan gebeuren.
+Antivirus programma's kunnen wel wat moeilijk doen.
 
 ## Aanmelden
 Eerst zul je een account moeten aanmaken (email + paswoord) waarna je in een wachtrij terecht komt.
