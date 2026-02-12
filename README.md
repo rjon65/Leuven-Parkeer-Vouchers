@@ -26,6 +26,8 @@ Omdat de 4411 app geen toegankelijke API heeft, wordt de SMS service gebruikt. D
       - Eventuele foutberichten ontvang je wel nog via een gratis SMS
   - Via de app kost een een voucher activering 0.35 💶
 
+_Als je de 4411 app toch wil gebruiken dan stel je de parkeersessie zo in dat vouchers naar je eigen nummer worden gestuurd._
+
 # Gestart geraken
 ## Installeren
 De app kun je downloaden via de OneDrive link die ik je stuur.
