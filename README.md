@@ -40,10 +40,7 @@ Op dat moment kun je:
 - ofwel (door mij) als beheerder van een groep aangesteld worden
 - ofwel door een groep beheerder tot een groep toegelaten worden, die je dan ook nog het groep paswoord moet aanleveren
 
-## Instellingen
-### PIN
-Het is aangeraden om een PIN in stellen zodat edit/delete operaties standaard niet getoond worden.
-
+## App rechten
 Om correct te werken moet de app bepaalde rechten krijgen:
 - Essentieel
   - Zonder deze rechten kun je de app niet gebruiken en het startscherm geeft een menu optie als dit het geval is.
@@ -55,8 +52,16 @@ Om correct te werken moet de app bepaalde rechten krijgen:
     - Berichten (foutboodschappen)
     - Camera (scannen van vouchers en nummerplaat)
 
+## Instellingen
+### PIN
+Het is aangeraden om een PIN in stellen zodat edit/delete operaties standaard niet getoond worden.
+
 ### Groep paswoord
 Dit paswoord moet je groep beheerder je aanleveren. Zonder paswoord heb je geen toegang tot de data.
+Mocht je een verkeerd paswoord ingelezen hebben dan kun je hier een nieuw paswoord inlezen.
+
+### 4411
+Bevestigingsberichten van 4411 in- of uitschakelen. De status wordt opgeslagen na ontvangst van de antwoord SMS.
 
 # Groep Beheerder Functies
 Stuur de OneDrive link naar de app + het groep paswoord naar mensen die je van jouw vouchers gebruik wil laten maken.
