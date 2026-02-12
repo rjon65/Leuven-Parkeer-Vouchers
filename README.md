@@ -3,8 +3,8 @@ Informatie, [discussie](https://github.com/rjon65/Leuven-Parkeer-Vouchers/discus
 
 # Introductie
 De app laat je toe om je parkeer vouchers in te lezen, parkeersessies in te plannen en vouchers via de 4411 SMS service te gebruiken of naar een contact door te sturen.
-Alle informatie wordt in een real-time database bijgehouden zodat gebruikers in groep steeds een zicht hebben op de laatste status.
-Groepen zijn van elkaar afgeschermd en data is geencrypteerd door een door de groep beheerder ingestald paswoord (dus ook niet voor mij zichtbaar).
+Alle informatie wordt in een real-time database bijgehouden zodat gebruikers in een groep steeds een zicht hebben op de laatste status.
+Groepen zijn van elkaar afgeschermd en data is geencrypteerd door een door de groep beheerder ingesteld paswoord (en dus ook niet voor mij zichtbaar).
 Bij het plannen van een parkeersessie wordt steeds een optimale combinatie (oudste eerst en dan minimaal aantal) van vouchers gebruikt waarbij die met de kortste duurtijd eerst worden gebruikt.
 Een lopende parkeersessie kan afgebroken worden waarbij de niet gebruikte vouchers terug worden vrijgegeven.
 
